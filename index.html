@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Freelancer - Start Bootstrap Theme</title>
+  <title>Johndedios.net</title>
 
   <!-- Custom fonts for this theme -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -16,7 +16,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
   <!-- Theme CSS -->
-  <link href="css/freelancer.min.css" rel="stylesheet">
+  <link href="css/freelancer.css" rel="stylesheet">
 
 </head>
 
@@ -25,15 +25,18 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-      <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <!-- <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a> -->
+      <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-secondary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Projects</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#technologies">Technologies</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
@@ -47,26 +50,26 @@
   </nav>
 
   <!-- Masthead -->
-  <header class="masthead bg-primary text-white text-center">
+  <header class="masthead bg-secondary text-white text-center" id="firstHeader">
     <div class="container d-flex align-items-center flex-column">
 
       <!-- Masthead Avatar Image -->
-      <img class="masthead-avatar mb-5" src="img/avataaars.svg" alt="">
+      <!-- <img class="masthead-avatar mb-5" src="img/avataaars.svg" alt=""> -->
 
       <!-- Masthead Heading -->
-      <h1 class="masthead-heading text-uppercase mb-0">Start Bootstrap</h1>
+      <h1 class="masthead-heading text-uppercase mb-5">John de Dios</h1>
 
       <!-- Icon Divider -->
-      <div class="divider-custom divider-light">
+      <!-- <div class="divider-custom divider-light">
         <div class="divider-custom-line"></div>
         <div class="divider-custom-icon">
           <i class="fas fa-star"></i>
         </div>
         <div class="divider-custom-line"></div>
-      </div>
+      </div> -->
 
       <!-- Masthead Subheading -->
-      <p class="masthead-subheading font-weight-light mb-0">Graphic Artist - Web Designer - Illustrator</p>
+      <p class="masthead-subheading font-weight-light mb-0">Web Developer</p>
 
     </div>
   </header>
@@ -76,16 +79,16 @@
     <div class="container">
 
       <!-- Portfolio Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-5">Projects</h2>
 
       <!-- Icon Divider -->
-      <div class="divider-custom">
+      <!-- <div class="divider-custom">
         <div class="divider-custom-line"></div>
         <div class="divider-custom-icon">
           <i class="fas fa-star"></i>
         </div>
         <div class="divider-custom-line"></div>
-      </div>
+      </div> -->
 
       <!-- Portfolio Grid Items -->
       <div class="row">
@@ -95,10 +98,10 @@
           <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
+               <p>NBA Match</p>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/cabin.png" alt="">
+            <img class="img-fluid" src="img/portfolio/mmsquare2.png" alt="">
           </div>
         </div>
 
@@ -107,10 +110,10 @@
           <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
+                <p>The Jersey Joint</p>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/cake.png" alt="">
+            <img class="img-fluid" src="img/portfolio/jjsquare.png" alt="">
           </div>
         </div>
 
@@ -119,78 +122,191 @@
           <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
             <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
               <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
+                <p>Epic Meal Planner</p>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/circus.png" alt="">
+            <img class="img-fluid" src="img/portfolio/mpsquare.png" alt="">
           </div>
         </div>
-
-        <!-- Portfolio Item 4 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/game.png" alt="">
-          </div>
-        </div>
-
-        <!-- Portfolio Item 5 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/safe.png" alt="">
-          </div>
-        </div>
-
-        <!-- Portfolio Item 6 -->
-        <div class="col-md-6 col-lg-4">
-          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-              <div class="portfolio-item-caption-content text-center text-white">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="img/portfolio/submarine.png" alt="">
-          </div>
-        </div>
-
-      </div>
-      <!-- /.row -->
-
     </div>
   </section>
 
+
+  <section class="page-section portfolio bg-light" id="technologies">
+    <div class="container">
+
+        <!-- Tech Stack-->
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-5">Tech Stack</h2>
+
+        <!-- Icon Divider -->
+        <!-- <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon">
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="divider-custom-line"></div>
+          </div> -->
+
+        <!-- Portfolio Grid Items -->
+        <div class="row">
+
+          <!-- Tech Item 1 -->
+          <div class="col-4 col-sm-3 col-lg-2 mb-5">
+            <div class="portfolio-item mx-auto" >
+              <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white">
+                  <p>Javascript</p>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/devicons/javascript-original.svg" alt="">
+            </div>
+          </div>
+
+          <!-- Tech Item 2 -->
+          <div class="col-4 col-sm-3 col-lg-2 mb-5">
+            <div class="portfolio-item mx-auto">
+              <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white">
+                  <p>The Jersey Joint</p>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/devicons/react-original-wordmark.svg" alt="">
+            </div>
+          </div>
+
+          <!-- Tech Item 3 -->
+          <div class="col-4 col-sm-3 col-lg-2  mb-5">
+            <div class="portfolio-item mx-auto">
+              <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white">
+                  <p>Epic Meal Planner</p>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/devicons/jquery-plain-wordmark.svg" alt="">
+          </div>
+        </div>
+          <!-- Tech Item 4 -->
+          <div class="col-4  col-sm-3 col-lg-2  mb-5">
+            <div class="portfolio-item mx-auto" >
+              <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white">
+                  <p>The Jersey Joint</p>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/devicons/html5-original-wordmark.svg" alt="">
+            </div>
+          </div>
+        <!-- Tech Item 5 -->
+        <div class="col-4 col-sm-3 col-lg-2  mb-5">
+          <div class="portfolio-item mx-auto" >
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <p>Epic Meal Planner</p>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/devicons/css3-original-wordmark.svg" alt="">
+          </div>
+        </div>
+        <!-- Tech Item 6 -->
+        <div class="col-4 col-sm-3 col-lg-2  mb-5">
+          <div class="portfolio-item mx-auto">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <p>The Jersey Joint</p>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/devicons/bootstrap-plain-wordmark.svg" alt="">
+          </div>
+        </div>
+            <!-- Tech Item 7 -->
+        <div class="col-4 col-sm-3 col-lg-2  mb-5">
+          <div class="portfolio-item mx-auto">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white">
+                <p>Epic Meal Planner</p>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/devicons/php-original.svg" alt="">
+          </div>
+        </div>
+    <!-- Tech Item 8 -->
+    <div class="col-4 col-sm-3 col-lg-2  mb-5">
+      <div class="portfolio-item mx-auto">
+        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+          <div class="portfolio-item-caption-content text-center text-white">
+            <p>The Jersey Joint</p>
+          </div>
+        </div>
+        <img class="img-fluid" src="img/devicons/mysql-original-wordmark.svg" alt="">
+      </div>
+    </div>
+    <!-- Tech Item 9 -->
+    <div class="col-4 col-sm-3 col-lg-2">
+      <div class="portfolio-item mx-auto">
+        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+          <div class="portfolio-item-caption-content text-center text-white">
+            <p>Epic Meal Planner</p>
+          </div>
+        </div>
+        <img class="img-fluid" src="img/devicons/github-original-wordmark.svg" alt="">
+      </div>
+    </div>
+      <!-- Tech Item 10 -->
+    <div class="col-4 col-sm-3 col-lg-2">
+      <div class="portfolio-item mx-auto">
+        <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+          <div class="portfolio-item-caption-content text-center text-white">
+            <p>Epic Meal Planner</p>
+          </div>
+        </div>
+        <img class="img-fluid" src="img/devicons/git-original-wordmark.svg" alt="">
+      </div>
+     </div>
+      <!-- Tech Item 11 -->
+      <div class="col-4 col-sm-3 col-lg-2">
+        <div class="portfolio-item mx-auto">
+          <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+            <div class="portfolio-item-caption-content text-center text-white">
+              <p>Epic Meal Planner</p>
+            </div>
+          </div>
+          <img class="img-fluid" src="img/devicons/amazonwebservices-original-wordmark.svg" alt="">
+        </div>
+      </div>
+      <!-- Tech Item 12 -->
+      <div class="col-4 col-sm-3 col-lg-2">
+        <div class="portfolio-item mx-auto">
+          <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+            <div class="portfolio-item-caption-content text-center text-white">
+              <p>Epic Meal Planner</p>
+            </div>
+          </div>
+          <img class="img-fluid" src="img/devicons/ubuntu-plain-wordmark.svg" alt="">
+        </div>
+      </div>
+
+
+
+      </div>
+  </section>
+
+
   <!-- About Section -->
-  <section class="page-section bg-primary text-white mb-0" id="about">
+  <section class="page-section bg-secondary text-white mb-0" id="about">
     <div class="container">
 
       <!-- About Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+      <h2 class="page-section-heading text-center text-uppercase text-white mb-5">About Me</h2>
 
       <!-- Icon Divider -->
-      <div class="divider-custom divider-light">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
-        </div>
-        <div class="divider-custom-line"></div>
-      </div>
 
       <!-- About Section Content -->
       <div class="row">
         <div class="col-lg-4 ml-auto">
-          <p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+          <p class="lead">My admiration for coding began when i was twelve years old. I was introduced to MySpace and was addicted to the customization aspect that it provided. I would spend countless hours editing the html, and would always show off my profile to all my peers.</p>
         </div>
         <div class="col-lg-4 mr-auto">
-          <p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+          <p class="lead">Throughout HighSchool and College i took coding classes, but never thought of it as a career. At my previous job, i saw their website was in dire need of renovation. Which is what drew my interest back to Web Development, and reignited my interest for coding!</p>
         </div>
       </div>
 
@@ -336,7 +452,7 @@
             <div class="row justify-content-center">
               <div class="col-lg-8">
                 <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">NBA Match</h2>
                 <!-- Icon Divider -->
                 <div class="divider-custom">
                   <div class="divider-custom-line"></div>
@@ -346,10 +462,11 @@
                   <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/cabin.png" alt="">
+                <img class="img-fluid rounded mb-5" src="img/portfolio/memoryMatchportfoliogif.gif" alt="">
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                <p class="mb-2">An NBA themed memory match game with real time user statistics and high scores table.</p>
+                <p>Built with Javascript, jQuery, OOP, HTML5, and CSS3</p>
+                <button class="btn btn-secondary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   Close Window
                 </button>
@@ -375,20 +492,26 @@
             <div class="row justify-content-center">
               <div class="col-lg-8">
                 <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-3">The Jersey Joint</h2>
                 <!-- Icon Divider -->
-                <div class="divider-custom">
+                <!-- <div class="divider-custom">
                   <div class="divider-custom-line"></div>
                   <div class="divider-custom-icon">
                     <i class="fas fa-star"></i>
                   </div>
                   <div class="divider-custom-line"></div>
-                </div>
+                </div> -->
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/cake.png" alt="">
+                <img class="img-fluid rounded mb-5" src="img/portfolio/portfolioJerseyJointgif.gif" alt="">
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                <p class="mb-2">A full Stack E-Commerce Website that was inspired by my love for basketball.</p>
+                <p>Built with Javascript, React.js, PHP, MySQL, Bootstrap, ReactStrap, and CSS3</p>
+                <p>
+                  <a href="jerseyjoint.johndedios.net">Live Link </a>
+                  <span>|</span>
+                  <a href="https://github.com/Johndedios94/jersey-joint">Github</a>
+                </p>
+                <button class="btn btn-secondary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   Close Window
                 </button>
@@ -414,20 +537,21 @@
             <div class="row justify-content-center">
               <div class="col-lg-8">
                 <!-- Portfolio Modal - Title -->
-                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Circus Tent</h2>
+                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-3">Meal Planner</h2>
                 <!-- Icon Divider -->
-                <div class="divider-custom">
+                <!-- <div class="divider-custom">
                   <div class="divider-custom-line"></div>
                   <div class="divider-custom-icon">
                     <i class="fas fa-star"></i>
                   </div>
                   <div class="divider-custom-line"></div>
-                </div>
+                </div> -->
                 <!-- Portfolio Modal - Image -->
-                <img class="img-fluid rounded mb-5" src="img/portfolio/circus.png" alt="">
+                <img class="img-fluid rounded mb-5" src="img/portfolio/Mealplannerportfoliogif.gif" alt="">
                 <!-- Portfolio Modal - Text -->
-                <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                <button class="btn btn-primary" href="#" data-dismiss="modal">
+                <p class="mb-2">A mobile application that allows users to find new meals and store their recipes into a calendar. </p>
+                <p>This was a group project, my main role was in the back end, which i built using PHP and mySQL</p>
+                <button class="btn btn-secondary" href="#" data-dismiss="modal">
                   <i class="fas fa-times fa-fw"></i>
                   Close Window
                 </button>
