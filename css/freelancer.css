@@ -77,6 +77,10 @@ body {
   background-color: white;
 }
 
+.underline{
+  text-decoration: underline;
+}
+
 hr {
   box-sizing: content-box;
   height: 0;
